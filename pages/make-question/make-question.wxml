@@ -1,0 +1,31 @@
+<!--pages/choose/choose.wxml-->
+<view class="content">
+
+  <view class="gxufe">
+    <image style="width:100%;height:200px" src="/images/welcome.jpg"></image>
+  </view>
+
+  <!-- 分割线 -->
+  <view class="hr">
+
+  </view>
+
+  <view class="choose">
+    尊敬的老师，您好，请选择所出题型或查看答题情况：
+  </view>
+
+ <view class='nav-list margin-top-xl'>
+    <navigator open-type="navigate"  url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title margin">{{item.title}}</view>
+      <view class="nav-name margin">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}} margin'></text>
+    </navigator>
+  </view>
+ 
+
+
+
+
+
+
+</view>

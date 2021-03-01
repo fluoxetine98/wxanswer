@@ -1,0 +1,50 @@
+<button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+<view class='all'>
+  <view class='head head-height'>
+    <block wx:if="{{!hasUserInfo && canIUse}}">
+      <view class="userinfo">
+        <image class="userinfo-avatar" src="/images/wode-1.jpg" mode="cover"></image>
+        <text class="userinfo-nickname">微信授权</text>
+      </view>
+      <button class="login-button head-height" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    </block>
+    <block wx:else>
+      <view class="userinfo">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="center-list">
+  <view class="center-list-item">
+    <text class="list-icon"></text>
+    <text class="list-text">新消息通知</text>
+    <text class="navigat-arrow"></text>
+  </view>
+</view>
+
+<view class="center-list">
+  <view class="center-list-item border-bottom">
+    <text class="list-icon"></text>
+    <text class="list-text">帮助与反馈</text>
+    <text class="navigat-arrow"></text>
+  </view>
+</view>
+
+<view class="center-list">
+  <view class="center-list-item">
+    <text class="list-icon"></text>
+    <text class="list-text">服务条款及隐私</text>
+    <text class="navigat-arrow"></text>
+  </view>
+</view>
+
+<view class="center-list">
+  <view class="center-list-item">
+    <text class="list-icon"></text>
+    <text class="list-text">关于应用</text>
+    <text class="navigat-arrow"></text>
+  </view>
+</view>

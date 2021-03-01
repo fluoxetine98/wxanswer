@@ -1,0 +1,19 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.hr{
+  height: 2px;
+  background:black;
+  margin-top: 15px;
+ /* 透明样式 */
+  opacity: 0.2;
+}
+
+.nav-item{
+  width:50%;
+  margin-top: 20px;
+  font-size: 15px;
+}

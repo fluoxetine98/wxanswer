@@ -1,0 +1,104 @@
+@font-face {
+	font-family: texticons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('https://at.alicdn.com/t/font_984210_5cs13ndgqsn.ttf') format('truetype');
+}
+
+.head-height {
+  height: 240rpx;
+}
+
+.head {
+  display:flex;
+  width: 100%;
+  background-color: #1BC3B8;
+  align-items: center;
+}
+
+.login-button {
+  opacity: 0; 
+  width: 100%;
+  position: fixed;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #333333;
+  font-size: 42rpx;
+}
+
+.center-list {
+  display: -webkit-flex;
+  background-color: #FFFFFF;
+	margin-top: 20rpx;
+	width: 750rpx;
+}
+
+.center-list-item {
+	height: 90rpx;
+	width: 750rpx;
+	box-sizing: border-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 0rpx 20rpx;
+}
+
+.list-icon {
+	width: 40rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	color: #0faeff;
+	text-align: center;
+	font-family: texticons;
+	margin-right: 20rpx;
+}
+
+.list-text {
+	height: 90rpx;
+	line-height: 90rpx;
+	color: #555;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: left;
+}
+
+.navigat-arrow {
+	height: 90rpx;
+	width: 40rpx;
+	line-height: 90rpx;
+	color: #555;
+	text-align: right;
+	font-family: texticons;
+}
+
+.center-list-item {
+	height: 90rpx;
+	width: 750rpx;
+	box-sizing: border-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding: 0rpx 20rpx;
+}
+
+
+

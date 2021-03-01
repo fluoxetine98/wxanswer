@@ -1,0 +1,41 @@
+<!--pages/choose/choose.wxml-->
+<view class="content">
+
+  <view class="gxufe">
+    <image style="width:100%;height:180px" src="/images/dati.jpg"></image>
+  </view>
+
+  <!-- 分割线 -->
+  <view class="hr">
+
+  </view>
+
+  <view class="choose">
+    请选择登录用户：
+  </view>
+
+
+  <view class="nav">
+
+    <view class="nav-item">
+      
+      <view class="wenzi">
+        <navigator url="../teacher-login/teacher-login">
+        <image style="width:50%;height:100px" src="/images/teacher.jpg"></image>
+        <view>老师</view>
+      </navigator>
+    </view>
+    </view>
+
+    <view class="nav-item">
+      <navigator url="../student-login/student-login">
+      <image style="width:50%;height:100px" src="/images/student.jpg"></image>
+      <view class="wenzi">学生</view>
+    </navigator>
+    </view>
+  </view>
+
+
+
+
+</view>

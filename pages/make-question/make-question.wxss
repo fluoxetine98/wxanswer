@@ -1,0 +1,18 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.hr{
+  height: 1px;
+  background:black;
+  margin-top: 5px;
+ /* 透明样式 */
+  opacity: 0.2;
+}
+
+.choose{
+  font-size:15px;
+  text-align: center;
+}

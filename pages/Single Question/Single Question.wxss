@@ -1,0 +1,42 @@
+page{
+  font-size:17px;
+}
+
+view{
+  margin-top: 10px;
+}
+
+input{
+    box-shadow: 0 0 1px;
+    font-style:normal ;
+}
+
+label{
+  display: inline-block;
+  margin:0 5px 0 5px;
+}
+
+.hr{
+  height: 2px;
+  background:black;
+  margin-top: 5px;
+ /* 透明样式 */
+  opacity: 0.2;
+}
+
+.upload{
+  width: 90%;
+  margin-top:40px;
+  color: #999999;
+}
+
+.tui-content{
+  margin-top: 5px;
+}
+
+.tui-menu-list{
+  margin-top: 5px;
+}
+
+
+

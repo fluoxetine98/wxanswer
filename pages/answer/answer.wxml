@@ -1,0 +1,30 @@
+<!--pages/movie/movie.wxml-->
+
+<!-- 滑动导航栏：控制滑动页面的显示-->
+<view class="nav">
+  <!-- 正则表达 ? true:false -->
+  <view id="0" class="{{currentIndex == 0?'select':'normal'}}" bindtap="swiperNav">单选题</view>
+  <view id="1" class="{{currentIndex == 1?'select':'normal'}}" bindtap="swiperNav">多选题</view>
+  <view id="2" class="{{currentIndex == 2?'select':'normal'}}" bindtap="swiperNav">判断题</view>
+</view>
+
+<!-- 滑动页面：三个 -->
+<!-- swiper:配合导航做滑动页面 -->
+<!-- swiper：轮播图 -->
+
+<!-- swiper-item 下标位置 index：0开始 -->
+<!-- curret 选对对应下标的item显示 -->
+<swiper current="{{currentIndex}}">
+  <swiper-item>
+    单1
+  </swiper-item>
+
+  <swiper-item>
+    多选题
+  </swiper-item>
+
+  <swiper-item>
+    判断题
+  </swiper-item>
+
+</swiper>
